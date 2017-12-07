@@ -1,0 +1,22 @@
+{
+  "name": "football",
+  "version": "1.0.0",
+  "description": "cli app providing football data from https://api.football-data.org",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "football",
+    "cli"
+  ],
+  "author": "Jakub Gabory",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "commander": "^2.12.2",
+    "dateformat": "^3.0.2"
+  }
+}
